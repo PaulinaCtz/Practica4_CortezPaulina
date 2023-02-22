@@ -8,6 +8,7 @@
     tools:context=".MenuActivity">
 
     <ImageView
+        android:id="@+id/imageView"
         android:layout_gravity="center"
         android:layout_width="241dp"
         android:layout_height="wrap_content"
@@ -44,7 +45,7 @@
             android:textSize="@dimen/menu_buttons_text" />
 
         <Button
-            android:id="@+id/button_hot_drinks"
+            android:id="@+id/btnEspecialidades"
             android:layout_columnWeight="1"
             android:layout_gravity="fill_horizontal"
             android:layout_marginRight="@dimen/menu_buttons_margin"
@@ -55,7 +56,7 @@
             android:textSize="@dimen/menu_buttons_text" />
 
         <Button
-            android:id="@+id/button_combinations"
+            android:id="@+id/btnCombinations"
             android:layout_columnWeight="1"
             android:layout_gravity="fill_horizontal"
             android:layout_marginRight="@dimen/menu_buttons_margin"
@@ -66,7 +67,7 @@
             android:textSize="@dimen/menu_buttons_text" />
 
         <Button
-            android:id="@+id/button_sweets"
+            android:id="@+id/btnTortas"
             android:layout_columnWeight="1"
             android:layout_gravity="fill_horizontal"
             android:layout_marginRight="@dimen/menu_buttons_margin"
@@ -77,7 +78,7 @@
             android:textSize="@dimen/menu_buttons_text" />
 
         <Button
-            android:id="@+id/button_salties"
+            android:id="@+id/btnSopas"
             android:layout_columnWeight="1"
             android:layout_gravity="fill_horizontal"
             android:layout_marginRight="@dimen/menu_buttons_margin"
@@ -88,7 +89,7 @@
             android:textSize="@dimen/menu_buttons_text" />
 
         <Button
-            android:id="@+id/button_custom"
+            android:id="@+id/btnDrinks"
             android:layout_columnWeight="1"
             android:layout_gravity="fill_horizontal"
             android:layout_marginRight="@dimen/menu_buttons_margin"
