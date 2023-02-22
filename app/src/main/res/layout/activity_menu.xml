@@ -33,7 +33,7 @@
         android:paddingHorizontal="50dp">
 
         <Button
-            android:id="@+id/button_cold_drinks"
+            android:id="@+id/btnantojitos"
             android:layout_columnWeight="1"
             android:layout_gravity="fill_horizontal"
             android:layout_marginRight="@dimen/menu_buttons_margin"
